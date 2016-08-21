@@ -1,6 +1,6 @@
 FROM debian:testing
 
-MAINTAINER Gaston.martinez.90@gmail.com
+MAINTAINER Xero-Hige <Gaston.martinez.90@gmail.com>
 
 RUN echo "deb http://mirrors.dcarsat.com.ar/debian/ testing main contrib non-free \ndeb-src http://mirrors.dcarsat.com.ar/debian/ testing main contrib non-free" > /etc/apt/sources.list
 

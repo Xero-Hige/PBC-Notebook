@@ -1,5 +1,10 @@
 #include <stdio.h>
 
-int printing (char* message){
+#ifndef UTILS_C
+#define UTILS_C
+
+int imprimir (char* message){
     printf("%s\n",message);
 }
+
+#endif
