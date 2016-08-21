@@ -1,2 +1,2 @@
 # PBC-Notebook
-### Python3 Bash and C notebook for teaching purposes
+#### The _Python3_ _Bash_ and _C_ notebook for teaching purposes
