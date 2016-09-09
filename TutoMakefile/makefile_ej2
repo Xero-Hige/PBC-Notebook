@@ -1,0 +1,5 @@
+foo:
+	echo "Fooooo"
+
+bar: foo
+	echo "Baaaar"

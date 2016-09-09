@@ -1,0 +1,25 @@
+all: english_example
+
+english_greeter.o: english_greeter.c greeter.h
+	gcc -std=c99 english_greeter.c -c 
+
+spanish_greeter.o: spanish_greeter.c greeter.h
+	gcc -std=c99 spanish_greeter.c -c 
+
+english_example: english_greeter.o example.c
+	gcc -std=c99 example.c english_greeter.o -o e_example
+
+spanish_example: spanish_greeter.o example.c
+	gcc -std=c99 example.c spanish_greeter.o -o s_example
+
+run: spanish_example
+	./s_example
+
+clean_obj:
+	rm -f *.o 
+
+clean: clean_obj
+	rm -f e_example s_example
+
+
+

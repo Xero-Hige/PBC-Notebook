@@ -1,0 +1,2 @@
+compile:
+	gcc -std=c99 example.c -o example
