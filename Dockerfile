@@ -6,6 +6,7 @@ RUN echo "deb http://mirrors.dcarsat.com.ar/debian/ testing main contrib non-fre
 
 RUN apt-get update -y && \
 	apt-get install -y --no-install-recommends \
+		clang \
 		gcc \
 		build-essential \
 		python3-pip \
